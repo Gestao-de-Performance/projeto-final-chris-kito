@@ -1,5 +1,5 @@
 .introducao{
-  max-width: 1200px;
+  max-width: 1920px;
   padding: 40px 20px;
   margin: 0 auto;
   display: grid;
@@ -7,8 +7,9 @@
   gap: 100px;
   align-items: center;
 }
+
 .introducao h1{
-  font-size: 4.5rem;
+  font-size: 5.5rem;
   line-height: 1.125;
   margin-bottom: 30px;
   position: relative;
@@ -27,6 +28,11 @@
 .introducao p{ 
 font-size: 1.5rem;
 color: var(--cinza-200);
+}
+@media(max-width: 1100px){
+  .introducao h1{
+    font-size: 4.0rem;
+  }
 }
 @media(max-width: 1000px){
   .introducao h1{
